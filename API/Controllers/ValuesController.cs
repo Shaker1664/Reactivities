@@ -54,7 +54,7 @@ namespace API.Controllers
 
         //PUT api/value/4
         [HttpPut("{id}")]
-        public async Task<ActionResult> Put(int id, Value editValue)
+        public ActionResult Put(int id, Value editValue)
         {
             return Ok();
         }
